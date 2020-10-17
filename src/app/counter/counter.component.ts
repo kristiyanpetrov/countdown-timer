@@ -10,7 +10,7 @@ export class CounterComponent implements OnInit {
   constructor() {
   }
 
-  countDownDate = new Date('october 17, 2020 01:31:50').getTime();
+  countDownDate = new Date('december 31, 2020 23:59:59').getTime();
   countDownDuration: any;
   message = 'Happy New Year! 2021'
 
